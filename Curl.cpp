@@ -133,7 +133,7 @@ string curlcpp::Curl( const string & url ) {
     // ----- (Step 2) Retrieve Curled Output and Cleanup ----- 
     // Curls to Retrieve Content from the URL and then performs Cleanup, Handle Errors.
     if ( curlcpp::libcurlwrapper::CurlAndClean( conn, url, &errorStr ) == false ) {
-        fprintf( stderr, "Curling Cleanup Failed\n" );
+        fprintf( stderr, "Curling Failed\n" );
         exit( EXIT_FAILURE );
     }  
     
