@@ -1,9 +1,9 @@
-#ifndef CURL_H
-#define CURL_H
+# ifndef CURL_H
+# define CURL_H
 
-#include <string>
-#include <curl/curl.h>
-#include <cstdlib>
+# include <string>
+# include <curl/curl.h>
+# include <cstdlib>
 
 namespace curlcpp {
 
@@ -33,4 +33,4 @@ namespace curlcpp {
 
 } // Closing Brace of namespace curlcpp
 
-#endif // End of Guard
+# endif // End of Guard
